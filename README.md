@@ -30,3 +30,7 @@ The aim of the project is develope a NLP Search Engine, using **NLTK (Natural La
 - [`nltk`](https://www.nltk.org/)
 - [`gensim`](https://radimrehurek.com/gensim/)
 - [`IPyWidgets`](https://ipywidgets.readthedocs.io/en/stable/)
+
+## Author
+
+Emilio Garzia, 2024
