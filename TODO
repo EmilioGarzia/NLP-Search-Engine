@@ -1,0 +1,3 @@
+* Controllare in generale lo embedding average (e convertire query con embedding average e non solo con tfidf)
+* Trovare una immagine che esprima perchè cosine similarity è meglio di Distanza Euclidea
+* Scrivere la parte teorica sul t-SNE e sulla riduzione di dimensionalità (valutare anche se inserire curse of dimensionality)
