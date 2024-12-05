@@ -1,7 +1,7 @@
 from nltk.corpus import words
 from nltk.tokenize import word_tokenize
 from collections import Counter
-from Levenshtein import levenshtein
+from .Levenshtein import levenshtein
 
 class SpellCorrector:
     """
