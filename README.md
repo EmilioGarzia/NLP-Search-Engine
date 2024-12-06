@@ -2,7 +2,7 @@
 
 This repo contain my project developed during the "Natural Language Processing" course at university
 
-The aim of the project is develope a NLP Search Engine, using **NLTK (Natural Language toolkit)**, in this project I have explored the main tools useful in the NLP context, such as:
+The aim of the project is develope a NLP Search Engine, using **NLTK (Natural Language toolkit)** that given a query string the engine retrive the first $k$ documents in the corpus that have best similarity respect to the query, in this project I have explored the main tools useful in the NLP context, such as:
 
 * Corpus loading
 * Preprocessing on text data
@@ -12,14 +12,18 @@ The aim of the project is develope a NLP Search Engine, using **NLTK (Natural La
   * Punctuation removal
   * Part of Speech
   * Data cleaning in general
-* Document representation (CBOW)
-* Word embeddings (`Word2Vec`)
-* Document represtation (`Doc2Vec`)
-* Document representation (TF-IDF)
+* Document representation 
+  * Continous Bags of Word (CBOW)
+  * Word embeddings (`Word2Vec`)
+* Document represtation 
+  * Embedding average for documents representation
+  * `Doc2Vec` model
+  * TF-IDF
 * Cosine similarity
 * K-means alghoritm
-* Principal component analysis
-* Evaluation of the model (Precision, Recall, F1)
+* t-SNE dimensionality reduction
+* Evaluation of the model (`Precision`, `Recall`, `F1`)
+* Spelling correction (using Levenshtein edit distance)
 
 ## Dependencies
 
@@ -30,7 +34,8 @@ The aim of the project is develope a NLP Search Engine, using **NLTK (Natural La
 - [`nltk`](https://www.nltk.org/)
 - [`gensim`](https://radimrehurek.com/gensim/)
 - [`IPyWidgets`](https://ipywidgets.readthedocs.io/en/stable/)
+- [Spelling Correction (more on my GitHub)](https://github.com/EmilioGarzia/Spelling-Correction/tree/master)
 
 ## Author
 
-Emilio Garzia, 2024
+[Emilio Garzia](https://github.com/EmilioGarzia), 2024
