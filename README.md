@@ -36,6 +36,12 @@ The aim of the project is develope a NLP Search Engine, using **NLTK (Natural La
 - [`IPyWidgets`](https://ipywidgets.readthedocs.io/en/stable/)
 - [Spelling Correction (more on my GitHub)](https://github.com/EmilioGarzia/Spelling-Correction/tree/master)
 
+You can install theese dependencies from `requirements.txt` using `pip` manager in your environment as shown below:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Author
 
 [Emilio Garzia](https://github.com/EmilioGarzia), 2024
